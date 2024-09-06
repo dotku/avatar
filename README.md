@@ -1,5 +1,23 @@
 # avatar
 
+## Usage
+
+```jsx
+import { Avatar } from "@nextui-org/react";
+import { useAppAvatar } from "@/hooks/useAppAvatar";
+
+export default function AppAvatar({user}) {
+  const {avatarURL, loading} = useAppAvatar({user});
+
+  return loading ? <Avatar name={user.firstName} /> : <Avatar
+      src={avatarURL}
+      name={user.firstName}
+    />;
+}
+```
+
+## Reference
+
 1. gravatar
 
     Usually it would be usued for someone already existed on the social platform, 
@@ -59,3 +77,7 @@
 
     Down
 
+15. dicebear
+
+    Provides serveral different styles for user to pickup,
+    I think dicebear so far would be the best avatar service that provides fast and rich styles for your social project need
