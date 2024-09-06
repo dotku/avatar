@@ -45,6 +45,12 @@ or
 /api/avatar/$provider/$email/?name=first_name%20last_name&style=adventurer&format=svg
 ```
 
+sequance with:
+
+1. gravatar
+2. dicebear
+3. ui-avatars
+
 ## Reference
 
 1. gravatar
