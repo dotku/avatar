@@ -1,5 +1,7 @@
 # avatar
 
+Compared over 15 avatar image provider, and create a service for the community.
+
 ## Usage
 
 ```jsx
@@ -13,6 +15,19 @@ export default function AppAvatar({user}) {
       src={avatarURL}
       name={user.firstName}
     />;
+}
+```
+
+## Ideas
+
+could use this input to identify the avatar
+
+```
+{
+  user = {email: "name@domain.tld", name: "first_name last_name"}
+  provider = "dicebear"
+  style = "adventurer",
+  format = "svg",
 }
 ```
 
