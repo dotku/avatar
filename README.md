@@ -37,6 +37,14 @@ with service, it would be
 /api/avatar?email=name@domain.tld&name=first_name%20last_name&provider=dicebear&style=adventurer&format=svg
 ```
 
+or 
+
+```
+/api/avatar/$provider/?email=name@domain.tld&name=first_name%20last_name&style=adventurer&format=svg
+/api/avatar/$email/?name=first_name%20last_name&provider=dicebear&style=adventurer&format=svg
+/api/avatar/$provider/$email/?name=first_name%20last_name&style=adventurer&format=svg
+```
+
 ## Reference
 
 1. gravatar
