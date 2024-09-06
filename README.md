@@ -31,6 +31,12 @@ could use this input to identify the avatar
 }
 ```
 
+with service, it would be 
+
+```
+/api/avatar?email=name@domain.tld&name=first_name%20last_name&provider=dicebear&style=adventurer&format=svg
+```
+
 ## Reference
 
 1. gravatar
